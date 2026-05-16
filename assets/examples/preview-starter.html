@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeChat Template Starter Directions</title>
+  <style>
+    body {
+      margin: 0;
+      background: #eef0f2;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+      color: #17201b;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 18px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin: 0 0 24px;
+      color: #667070;
+      font-size: 15px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .phone {
+      background: #fff;
+      border: 1px solid #d7dce0;
+      padding: 14px;
+    }
+    .canvas {
+      min-height: 390px;
+      padding: 22px;
+      line-height: 1.75;
+    }
+    .label {
+      font-size: 12px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+    .title {
+      margin: 10px 0 14px;
+      font-size: 22px;
+      line-height: 1.32;
+      font-weight: 750;
+    }
+    .body {
+      margin: 0 0 14px;
+      font-size: 15px;
+    }
+    .card {
+      padding: 12px 14px;
+      font-size: 14px;
+    }
+    .caption {
+      margin: 12px 0 0;
+      color: #5b6268;
+      font-size: 13px;
+    }
+    .thinktank .canvas {
+      background: #fffdf8;
+      border: 1px solid #e7dfcf;
+      color: #18231f;
+    }
+    .thinktank .label { color: #9b7a37; }
+    .thinktank .title {
+      border-bottom: 2px solid #154c3b;
+      padding-bottom: 12px;
+    }
+    .thinktank .card {
+      background: #f3ead7;
+      color: #5a431d;
+    }
+    .dark .canvas {
+      background: #111418;
+      border: 1px solid #c19745;
+      color: #f4efe3;
+    }
+    .dark .label { color: #d0a24e; }
+    .dark .body { color: #d8d1c4; }
+    .dark .card {
+      border-left: 3px solid #d0a24e;
+      color: #f7d78c;
+      padding-left: 12px;
+    }
+    .playbook .canvas {
+      background: #fff;
+      border: 1px solid #d7e0e8;
+      color: #15202b;
+    }
+    .playbook .label {
+      color: #3268a8;
+      font-weight: 750;
+    }
+    .playbook .card {
+      background: #e9f2fb;
+      color: #1c4d7d;
+    }
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>公众号模板起始方向</h1>
+    <p class="subtitle">用于 Skill 第一轮展示。选中一个方向后，再根据用户反馈微调。</p>
+    <section class="grid">
+      <article class="phone thinktank">
+        <div class="canvas">
+          <div class="label">BUSINESS NOTE 042</div>
+          <h2 class="title">一家公司的护城河，通常先坏在会议室里</h2>
+          <p class="body">真正要看的不是技术路线，而是谁能把复杂判断变成组织动作。</p>
+          <div class="card">核心判断：效率工具的终局不是省时间，而是重塑责任分配。</div>
+        </div>
+        <p class="caption">高端智库：商业洞察、战略判断、深度分析。</p>
+      </article>
+      <article class="phone dark">
+        <div class="canvas">
+          <div class="label">THE REAL SHIFT</div>
+          <h2 class="title">AI 不是让人失业，是让借口失业</h2>
+          <p class="body">以前组织可以假装“不知道”。现在问题变成：知道了以后，谁负责。</p>
+          <div class="card">一句话：工具越强，管理越不能装傻。</div>
+        </div>
+        <p class="caption">黑金观点专栏：锐评、反直觉、强个人判断。</p>
+      </article>
+      <article class="phone playbook">
+        <div class="canvas">
+          <div class="label">PLAYBOOK / 03</div>
+          <h2 class="title">把 AI 用进团队，不要从工具清单开始</h2>
+          <p class="body">先找一个每周重复、结果可验收、责任人明确的流程。</p>
+          <div class="card">执行标准：一个场景、一个负责人、一个可检查结果。</div>
+        </div>
+        <p class="caption">咨询手册：教程、方法论、案例拆解。</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
