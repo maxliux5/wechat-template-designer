@@ -2,6 +2,8 @@
 
 When the user approves a direction, create a reusable package in a folder named `wechat-template-<slug>/`.
 
+If the template should be reusable by name, register it as `templates/<template-id>/` with a `template.json` file. User-private templates can live at `~/.wechat-template-designer/templates/<template-id>/`.
+
 ## Required Files
 
 ### `DESIGN.md`
@@ -82,6 +84,20 @@ Include:
 - How to adapt DESIGN.md references without losing WeChat compatibility.
 - Paste-test checklist.
 - When to make a component image-based.
+
+### `template.json`
+
+Purpose: template registry metadata for reuse mode.
+
+Include:
+
+- `id`
+- `name`
+- `description`
+- `suitableFor`
+- `defaultAuthor`
+- `palette`
+- `cover.default`
 
 ## Completion Criteria
 

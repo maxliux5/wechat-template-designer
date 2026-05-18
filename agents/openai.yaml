@@ -1,3 +1,3 @@
 display_name: WeChat Template Designer
-short_description: Design a reusable personal WeChat article template from visual examples and DESIGN.md references.
-default_prompt: Use $wechat-template-designer to design a personal WeChat public account template. Start with three visual directions, ask for feedback, then create a reusable template package.
+short_description: Design and reuse personal WeChat article templates from visual examples and DESIGN.md references.
+default_prompt: Use $wechat-template-designer to design or reuse a personal WeChat public account template. For design, start with three visual directions; for reuse, apply the named template to Markdown and prepare a WeChat draft.

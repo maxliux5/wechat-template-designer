@@ -1,0 +1,24 @@
+{
+  "id": "kidlearn",
+  "name": "KidLearn",
+  "description": "Bright, rounded, parent-friendly WeChat article template adapted from a children's education app DESIGN.md.",
+  "suitableFor": [
+    "children's learning product analysis",
+    "AI education tool reviews",
+    "parent-facing learning guides",
+    "classroom activity breakdowns"
+  ],
+  "defaultAuthor": "宝玉",
+  "palette": {
+    "primary": "#EF4444",
+    "secondary": "#3B82F6",
+    "reward": "#FACC15",
+    "success": "#22C55E",
+    "highlight": "#FEF3C7",
+    "text": "#1F2937",
+    "border": "#E5E7EB"
+  },
+  "cover": {
+    "default": "assets/default-cover.png"
+  }
+}
